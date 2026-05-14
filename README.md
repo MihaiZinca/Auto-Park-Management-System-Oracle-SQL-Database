@@ -96,6 +96,15 @@ Oracle Database oferă mecanisme de protecție prin **Recycle Bin**:
 
 ---
 
+## Obiecte Avansate
+
+1. **Vederi:** `V_Dashboard_Vanzari` – raport dinamic pentru management  
+2. **Indexuri:** `idx_nume_insensitive` – căutări rapide, insensitive la majuscule/minuscule  
+3. **Secvențe:** `se_facturi_2025` – generare automată a numerelor de facturi  
+4. **Sinonime:** `Oferta_Azi` – simplifică interogările complexe
+
+---
+
 ## 🚀 Extensie PL/SQL (Programare Avansata)
 
 Aceasta sectiune adauga un strat de inteligenta si automatizare bazei de date, transformand-o intr-un sistem capabil sa gestioneze singur regulile de business.
@@ -119,17 +128,5 @@ Aceasta sectiune adauga un strat de inteligenta si automatizare bazei de date, t
 * **Declansatori Inteligenti (Triggers):**
   * **Nivel Instructiune:** Restrictionarea accesului in afara orelor de program.
   * **Nivel Rand:** Corectia automata a datelor si protectia pretului de vanzare.
-
----
-**Autor:** Zinca Mihai Cristian  
-**Tehnologii:** Oracle PL/SQL, Gestiune Tranzactionala, Auditare Automata.
----
-
-## Obiecte Avansate
-
-1. **Vederi:** `V_Dashboard_Vanzari` – raport dinamic pentru management  
-2. **Indexuri:** `idx_nume_insensitive` – căutări rapide, insensitive la majuscule/minuscule  
-3. **Secvențe:** `se_facturi_2025` – generare automată a numerelor de facturi  
-4. **Sinonime:** `Oferta_Azi` – simplifică interogările complexe
 
 ---
