@@ -1,6 +1,6 @@
 # Sistem de Gestiune Parc Auto
 
-**Proiectarea și implementarea SQL**  
+**Proiectarea și implementarea SQL + PL/SQL**  
 
 ---
 
