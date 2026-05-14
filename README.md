@@ -96,6 +96,35 @@ Oracle Database oferă mecanisme de protecție prin **Recycle Bin**:
 
 ---
 
+## 🚀 Extensie PL/SQL (Programare Avansata)
+
+Aceasta sectiune adauga un strat de inteligenta si automatizare bazei de date, transformand-o intr-un sistem capabil sa gestioneze singur regulile de business.
+
+### 🛠️ Functionalitati Cheie:
+
+* **Automatizare si SQL Dinamic:**
+  * Creare automata de tabele de arhiva si modificari structurale (`ALTER`) in timp real prin `EXECUTE IMMEDIATE`.
+* **Logica Decizionala si Iterativa:**
+  * Clasificarea automata a vehiculelor pe categorii de pret (`Premium/Standard/Buget`).
+  * Simulari de calcul prin structuri repetitive (`WHILE`, `FOR REVERSE`).
+* **Gestiune Performanta a Datelor:**
+  * Utilizarea colectiilor (`Index-by Tables`, `Nested Tables`, `Varrays`) pentru procesarea rapida a datelor in memorie.
+  * Optimizarea interogarilor masive prin `BULK COLLECT`.
+* **Siguranta si Integritate (Tratarea Exceptiilor):**
+  * Validarea stricta a datelor (ex: blocarea km negativi sau a vanzarilor in pierdere).
+  * Capturarea erorilor de sistem si transformarea lor in mesaje personalizate.
+* **Capsulare in Pachete (`PK_GESTIUNE_AUTO`):**
+  * Gruparea functiilor si procedurilor intr-un singur obiect pentru performanta si securitate.
+  * Functii pentru calculul profitului, uzurii si taxelor vamale.
+* **Declansatori Inteligenti (Triggers):**
+  * **Nivel Instructiune:** Restrictionarea accesului in afara orelor de program.
+  * **Nivel Rand:** Corectia automata a datelor si protectia pretului de vanzare.
+
+---
+**Autor:** Zinca Mihai Cristian  
+**Tehnologii:** Oracle PL/SQL, Gestiune Tranzactionala, Auditare Automata.
+---
+
 ## Obiecte Avansate
 
 1. **Vederi:** `V_Dashboard_Vanzari` – raport dinamic pentru management  
